@@ -5,7 +5,7 @@ for i in numbers:
     for k in numbers:
         if i != 1:
             if k < i:
-                if k != 1 and k != i:
+                if k != 1:
                     if i % k == 0:
                         not_primes.append(i) #4, 6, 8, 9
                         break
@@ -16,5 +16,5 @@ for i in numbers:
 
 
 
-print(primes)
-print(not_primes)
+print('Primes:', primes)
+print('Not primes:', not_primes)
